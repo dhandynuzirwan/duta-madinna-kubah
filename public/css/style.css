@@ -160,6 +160,7 @@ h6,
     border-color: var(--primary) !important;
 }
 
+
 @media screen and (max-width: 576px) {
     .navbar-dark .navbar-brand h1 {
         font-size: 18px;
@@ -246,6 +247,24 @@ h6,
 .carousel-caption h1 {
     font-size: 32px;
 }
+
+/*** baru ***/
+@media (max-width: 768px) {
+    #home .carousel-inner {
+        height: 50vh;
+    }
+
+    #home .carousel-item {
+        height: 100%;
+    }
+
+    #home img {
+        height: 100%;
+        width: 100%;
+        object-fit: cover;
+    }
+}
+/*** baru ***/
 
 @media (max-width: 576px) {
     .carousel-caption h1 {

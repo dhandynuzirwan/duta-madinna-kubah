@@ -17,7 +17,8 @@
         rel="stylesheet">
 
     <!-- Icon Font Stylesheet -->
-    <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.10.0/css/all.min.css" rel="stylesheet">
+    <!--<link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.10.0/css/all.min.css" rel="stylesheet">-->
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css" rel="stylesheet">
     <link href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.4.1/font/bootstrap-icons.css" rel="stylesheet">
 
     <!-- Libraries Stylesheet -->
@@ -41,36 +42,36 @@
 
 
     <!-- Topbar Start -->
-    <div class="container-fluid bg-dark px-5 d-none d-lg-block">
-        <div class="row gx-0">
-            <div class="col-lg-11 text-center text-lg-start mb-2 mb-lg-0">
-                <div class="d-inline-flex align-items-center gap-2" style="height: 45px;">
-                    <small class="text-light me-3">
-                        <i class="fa fa-map-marker-alt me-2"></i>
-                        Desa Sukorejo - Kec. Gandusari Kab. Trenggalek, Jawa Timur
-                    </small>
-                    <small class="text-light me-3">
-                        <i class="fa fa-phone-alt me-2"></i>
-                        0852 3673 8187
-                    </small>
-                    <small class="text-light me-3">
-                        <i class="fa fa-envelope-open me-2"></i>
-                        sales@kubahmadinna.com
-                    </small>
-                </div>
-            </div>
-            <div class="col-lg-1 text-center text-lg-end">
-                <div class="d-inline-flex align-items-center" style="height: 45px;">
-                    <a class="btn btn-sm btn-outline-light btn-sm-square rounded-circle me-2"
-                        href="https://www.facebook.com/dutamadinnakubah/"><i
-                            class="fab fa-facebook-f fw-normal"></i></a>
-                    <a class="btn btn-sm btn-outline-light btn-sm-square rounded-circle me-2"
-                        href="https://www.instagram.com/dutamadinnakubah/"><i
-                            class="fab fa-instagram fw-normal"></i></a>
-                </div>
-            </div>
-        </div>
-    </div>
+    <!--<div class="container-fluid bg-dark px-5 d-none d-lg-block">-->
+    <!--    <div class="row gx-0">-->
+    <!--        <div class="col-lg-11 text-center text-lg-start mb-2 mb-lg-0">-->
+    <!--            <div class="d-inline-flex align-items-center gap-2" style="height: 45px;">-->
+    <!--                <small class="text-light me-3">-->
+    <!--                    <i class="fa fa-map-marker-alt me-2"></i>-->
+    <!--                    Desa Sukorejo - Kec. Gandusari Kab. Trenggalek, Jawa Timur-->
+    <!--                </small>-->
+    <!--                <small class="text-light me-3">-->
+    <!--                    <i class="fa fa-phone-alt me-2"></i>-->
+    <!--                    0852 3673 8187-->
+    <!--                </small>-->
+    <!--                <small class="text-light me-3">-->
+    <!--                    <i class="fa fa-envelope-open me-2"></i>-->
+    <!--                    sales@kubahmadinna.com-->
+    <!--                </small>-->
+    <!--            </div>-->
+    <!--        </div>-->
+    <!--        <div class="col-lg-1 text-center text-lg-end">-->
+    <!--            <div class="d-inline-flex align-items-center" style="height: 45px;">-->
+    <!--                <a class="btn btn-sm btn-outline-light btn-sm-square rounded-circle me-2"-->
+    <!--                    href="https://www.facebook.com/profile.php?id=61552978706701/"><i-->
+    <!--                        class="fab fa-facebook-f fw-normal"></i></a>-->
+    <!--                <a class="btn btn-sm btn-outline-light btn-sm-square rounded-circle me-2"-->
+    <!--                    href="https://www.instagram.com/dutamadinna.kubah/"><i-->
+    <!--                        class="fab fa-instagram fw-normal"></i></a>-->
+    <!--            </div>-->
+    <!--        </div>-->
+    <!--    </div>-->
+    <!--</div>-->
     <!-- Topbar End -->
 
 
@@ -125,65 +126,73 @@
 
 
     <!-- Facts Start -->
-    <div class="container-fluid facts py-5 pt-lg-0">
-        <div class="container py-5 pt-lg-0">
-            <div class="row gx-0">
-                <div class="col-lg-4 wow zoomIn" data-wow-delay="0.1s">
-                    <div class="bg-primary shadow d-flex align-items-center justify-content-center p-4"
-                        style="height: 150px;">
-                        <div class="bg-white d-flex align-items-center justify-content-center rounded mb-2"
-                            style="width: 60px; height: 60px;">
-                            <i class="fa fa-users text-primary"></i>
-                        </div>
-                        <div class="ps-4">
-                            <h5 class="text-white mb-0">Happy Clients</h5>
-                            <h1 class="text-white mb-0" data-toggle="counter-up">12345</h1>
-                        </div>
-                    </div>
-                </div>
-                <div class="col-lg-4 wow zoomIn" data-wow-delay="0.3s">
-                    <div class="bg-light shadow d-flex align-items-center justify-content-center p-4"
-                        style="height: 150px;">
-                        <div class="bg-primary d-flex align-items-center justify-content-center rounded mb-2"
-                            style="width: 60px; height: 60px;">
-                            <i class="fa fa-check text-white"></i>
-                        </div>
-                        <div class="ps-4">
-                            <h5 class="text-primary mb-0">Projects Done</h5>
-                            <h1 class="mb-0" data-toggle="counter-up">12345</h1>
-                        </div>
-                    </div>
-                </div>
-                <div class="col-lg-4 wow zoomIn" data-wow-delay="0.6s">
-                    <div class="bg-primary shadow d-flex align-items-center justify-content-center p-4"
-                        style="height: 150px;">
-                        <div class="bg-white d-flex align-items-center justify-content-center rounded mb-2"
-                            style="width: 60px; height: 60px;">
-                            <i class="fa fa-award text-primary"></i>
-                        </div>
-                        <div class="ps-4">
-                            <h5 class="text-white mb-0">Win Awards</h5>
-                            <h1 class="text-white mb-0" data-toggle="counter-up">12345</h1>
-                        </div>
-                    </div>
-                </div>
-            </div>
-        </div>
-    </div>
+    <!--<div class="container-fluid facts py-5 pt-lg-0">-->
+    <!--    <div class="container py-5 pt-lg-0">-->
+    <!--        <div class="row gx-0">-->
+    <!--            <div class="col-lg-4 wow zoomIn" data-wow-delay="0.1s">-->
+    <!--                <div class="bg-primary shadow d-flex align-items-center justify-content-center p-4"-->
+    <!--                    style="height: 150px;">-->
+    <!--                    <div class="bg-white d-flex align-items-center justify-content-center rounded mb-2"-->
+    <!--                        style="width: 60px; height: 60px;">-->
+    <!--                        <i class="fa fa-users text-primary"></i>-->
+    <!--                    </div>-->
+    <!--                    <div class="ps-4">-->
+    <!--                        <h5 class="text-white mb-0">Happy Clients</h5>-->
+    <!--                        <h1 class="text-white mb-0" data-toggle="counter-up">12345</h1>-->
+    <!--                    </div>-->
+    <!--                </div>-->
+    <!--            </div>-->
+    <!--            <div class="col-lg-4 wow zoomIn" data-wow-delay="0.3s">-->
+    <!--                <div class="bg-light shadow d-flex align-items-center justify-content-center p-4"-->
+    <!--                    style="height: 150px;">-->
+    <!--                    <div class="bg-primary d-flex align-items-center justify-content-center rounded mb-2"-->
+    <!--                        style="width: 60px; height: 60px;">-->
+    <!--                        <i class="fa fa-check text-white"></i>-->
+    <!--                    </div>-->
+    <!--                    <div class="ps-4">-->
+    <!--                        <h5 class="text-primary mb-0">Projects Done</h5>-->
+    <!--                        <h1 class="mb-0" data-toggle="counter-up">12345</h1>-->
+    <!--                    </div>-->
+    <!--                </div>-->
+    <!--            </div>-->
+    <!--            <div class="col-lg-4 wow zoomIn" data-wow-delay="0.6s">-->
+    <!--                <div class="bg-primary shadow d-flex align-items-center justify-content-center p-4"-->
+    <!--                    style="height: 150px;">-->
+    <!--                    <div class="bg-white d-flex align-items-center justify-content-center rounded mb-2"-->
+    <!--                        style="width: 60px; height: 60px;">-->
+    <!--                        <i class="fa fa-award text-primary"></i>-->
+    <!--                    </div>-->
+    <!--                    <div class="ps-4">-->
+    <!--                        <h5 class="text-white mb-0">Win Awards</h5>-->
+    <!--                        <h1 class="text-white mb-0" data-toggle="counter-up">12345</h1>-->
+    <!--                    </div>-->
+    <!--                </div>-->
+    <!--            </div>-->
+    <!--        </div>-->
+    <!--    </div>-->
+    <!--</div>-->
     <!-- Facts Start -->
 
 
     <!-- Promotion Start -->
     <section id="promotion" class="container-fluid py-5 wow fadeInUp" data-wow-delay="0.1s">
-        <div class="container py-5">
-            <div class="section-title text-center position-relative pb-3 mb-5 mx-auto" style="max-width: 600px;">
-                <h5 class="fw-bold text-primary text-uppercase">Promo Hari Ini</h5>
-                <h1 class="mb-0">Jangan Ketinggalan Dengan Promo Terbaru Dari Kami</h1>
-            </div>
+        <div class="container py-1">
+            <!--<div class="section-title text-center position-relative pb-3 mb-5 mx-auto" style="max-width: 600px;">-->
+            <!--    <h5 class="fw-bold text-primary text-uppercase">Promo Hari Ini</h5>-->
+            <!--    <h1 class="mb-0">Jangan Ketinggalan Dengan Promo Terbaru Dari Kami</h1>-->
+            <!--</div>-->
             <div class="owl-carousel promo-carousel wow fadeInUp" data-wow-delay="0.6s">
                 @foreach ($informations as $information)
                     <x-data-card :model="$information" />
                 @endforeach
+            </div>
+            <div class="d-flex justify-content-center py-2">
+                <button type="button" class="btn btn-primary me-2" id="promo-prev">
+                    <i class="fas fa-chevron-left"></i>
+                </button>
+                <button type="button" class="btn btn-primary" id="promo-next">
+                    <i class="fas fa-chevron-right"></i>
+                </button>
             </div>
         </div>
     </section>
@@ -191,7 +200,7 @@
 
     <!-- About Start -->
     <section id="about" class="container-fluid py-5 wow fadeInUp" data-wow-delay="0.1s">
-        <div class="container py-5">
+        <div class="container py-1">
             <div class="row g-5">
                 <div class="col-lg-7">
                     <div class="section-title position-relative pb-3 mb-5">
@@ -220,10 +229,10 @@
                         </div>
                         <div class="ps-4">
                             <h5 class="mb-2">Konsultasi Gratis</h5>
-                            <h4 class="text-primary mb-0">0852 3673 8187</h4>
+                            <h4 class="text-primary mb-0">0813 3118 1861</h4>
                         </div>
                     </div>
-                    <a href="https://wa.me/6285236738187" target="_blank"
+                    <a href="https://wa.me/6281331181861" target="_blank"
                         class="btn btn-primary py-3 px-5 mt-3 wow zoomIn" data-wow-delay="0.9s">Hubungi Kami</a>
                 </div>
                 <div class="col-lg-5" style="min-height: 500px;">
@@ -240,10 +249,10 @@
 
     <!-- Features Start -->
     <section id="feature" class="container-fluid py-5 wow fadeInUp" data-wow-delay="0.1s">
-        <div class="container py-5">
+        <div class="container py-1">
             <div class="section-title text-center position-relative pb-3 mb-5 mx-auto" style="max-width: 600px;">
                 <h5 class="fw-bold text-primary text-uppercase">Kenapa Harus Memilih Kami</h5>
-                <h1 class="mb-0">Kami Di sini Untuk Mewujudkan Kubah Masjid Impian Anda</h1>
+                <h1 class="mb-0">Kami Disini Untuk Mewujudkan Kubah Masjid Impian Anda</h1>
             </div>
             <div class="row g-5">
                 <div class="col-lg-4">
@@ -277,7 +286,7 @@
 
     <!-- Service Start -->
     <section id="service" class="container-fluid py-5 wow fadeInUp" data-wow-delay="0.1s">
-        <div class="container py-5">
+        <div class="container py-1">
             <div class="section-title text-center position-relative pb-3 mb-5 mx-auto" style="max-width: 600px;">
                 <h5 class="fw-bold text-primary text-uppercase">Layanan Kami</h5>
                 <h1 class="mb-0">Solusi Berbagai Kubah Masjid Bagi Anda</h1>
@@ -300,7 +309,7 @@
                         class="position-relative bg-primary rounded h-100 d-flex flex-column align-items-center justify-content-center text-center p-5">
                         <h3 class="text-white mb-3">Segera Hubungi Kami</h3>
                         <p class="text-white mb-3">Dapatkan konsultasi sepuasnya gratis</p>
-                        <h4 class="text-white mb-0">0852 3673 8187</h4>
+                        <h4 class="text-white mb-0">0813 3118 1861</h4>
                     </div>
                 </div>
             </div>
@@ -310,7 +319,7 @@
 
 
     <!-- Dome Design Start -->
-    <section id="dome-design" class="py-5 bg-light wow fadeInUp" data-wow-delay="0.1s">
+    <section id="dome-design" class="py-3 bg-light wow fadeInUp" data-wow-delay="0.1s">
         <div class="container">
             <div class="section-title text-center position-relative pb-3 mb-5 mx-auto" style="max-width: 600px;">
                 <h5 class="fw-bold text-primary text-uppercase">Desain Kubah Masjid Kami</h5>
@@ -334,7 +343,7 @@
                     image="onion-type.png" wow-delay="0.6s" />
             </div>
             <div class="text-center mt-5">
-                <a href="https://wa.me/6285236738187" target="_blank"
+                <a href="https://wa.me/6281331181861" target="_blank"
                     class="btn btn-primary py-3 px-5 mt-3 wow zoomIn" data-wow-delay="0.9s">Hubungi Kami</a>
             </div>
         </div>
@@ -344,7 +353,7 @@
 
     <!-- Quote Start -->
     <section id="contact" class="container-fluid py-5 wow fadeInUp" data-wow-delay="0.1s">
-        <div class="container py-5">
+        <div class="container py-1">
             <div class="row g-5">
                 <div class="col-lg-8">
                     <div class="section-title position-relative pb-3 mb-5">
@@ -376,7 +385,7 @@
                         </div>
                         <div class="ps-4">
                             <h5 class="mb-2">Hubungi Nomor Di Bawah Ini</h5>
-                            <h4 class="text-primary mb-0">0852 3673 8187</h4>
+                            <h4 class="text-primary mb-0">0813 3118 1861</h4>
                         </div>
                     </div>
                 </div>
@@ -417,7 +426,7 @@
 
     <!-- Portofolio Start -->
     <section id="portfolio" class="container-fluid py-5 wow fadeInUp" data-wow-delay="0.1s">
-        <div class="container py-5">
+        <div class="container py-1">
             <div class="section-title text-center position-relative pb-3 mb-4 mx-auto" style="max-width: 600px;">
                 <h5 class="fw-bold text-primary text-uppercase">Portofolio</h5>
                 <h1 class="mb-0">Beberapa Jejak Karya dan Inovasi Kami</h1>
@@ -426,6 +435,14 @@
                 @foreach ($portfolios as $portfolio)
                     <x-data-card :model="$portfolio" />
                 @endforeach
+            </div>
+            <div class="d-flex justify-content-center py-2">
+                <button type="button" class="btn btn-primary me-2" id="porto-prev">
+                    <i class="fas fa-chevron-left"></i>
+                </button>
+                <button type="button" class="btn btn-primary" id="porto-next">
+                    <i class="fas fa-chevron-right"></i>
+                </button>
             </div>
         </div>
     </section>
@@ -442,22 +459,38 @@
                     </div>
                     <div class="d-flex mb-2">
                         <i class="bi bi-geo-alt text-primary me-2"></i>
-                        <p class="mb-0"> Desa Sukorejo - Kec. Gandusari Kab. Trenggalek, Jawa Timur</p>
+                        <p class="mb-0"> Tugu, Sukorejo, Kec. Gandusari, Kabupaten Trenggalek, Jawa Timur 66372</p>
+                    </div>
+                    <div class="d-flex mb-2">
+                        <i class="bi bi-geo-alt text-primary me-2"></i>
+                        <p class="mb-0"> Peresak, Kec. Narmada, Kabupaten Lombok Barat, Nusa Tenggara Bar. 83371 </p>
+                    </div>
+                    <div class="d-flex mb-2">
+                        <i class="bi bi-geo-alt text-primary me-2"></i>
+                        <p class="mb-0"> Jl. Brigjen H. Hasan Basri No.26, Rantau Kiwa, Kec. Tapin Utara, Kabupaten Tapin, Kalimantan Selatan 71114 </p>
+                    </div>
+                    <div class="d-flex mb-2">
+                        <i class="bi bi-geo-alt text-primary me-2"></i>
+                        <p class="mb-0"> Jl. Sultan Hamid II No.7c, Tj. Hilir, Kec. Pontianak Tim., Kota Pontianak, Kalimantan Barat 78243 </p>
                     </div>
                     <div class="d-flex mb-2">
                         <i class="bi bi-envelope-open text-primary me-2"></i>
-                        <p class="mb-0">sales@kubahmadinna.com</p>
+                        <p class="mb-0">kubahdutamadinnah@gmail.com</p>
                     </div>
                     <div class="d-flex mb-2">
                         <i class="bi bi-telephone text-primary me-2"></i>
-                        <p class="mb-0">0852 3673 8187</p>
+                        <p class="mb-0">0813 3118 1861</p>
                     </div>
                     <div class="d-flex mt-4">
                         <a class="btn btn-primary btn-square me-2"
-                            href="https://www.facebook.com/dutamadinnakubah/"><i
+                            href="https://www.facebook.com/61552978706701/"><i
                                 class="fab fa-facebook-f fw-normal"></i></a>
-                        <a class="btn btn-primary btn-square" href="https://www.instagram.com/dutamadinnakubah/"><i
+                        <a class="btn btn-primary btn-square me-2" href="https://www.instagram.com/dutamadinna.kubah/"><i
                                 class="fab fa-instagram fw-normal"></i></a>
+                        <a class="btn btn-primary btn-square me-2" href="https://www.tiktok.com/@dutamadinnakubah" target="_blank"><i 
+                                class="fab fa-tiktok fw-normal"></i></a>
+                        <a class="btn btn-primary btn-square" href="https://www.youtube.com/@DUTAMADINNAKUBAH" target="_blank"><i 
+                                class="fab fa-youtube fw-normal"></i></a>
                     </div>
                 </div>
                 <div class="col col-lg-4 col-md-12 py-5">
@@ -513,7 +546,47 @@
     <script src="lib/waypoints/waypoints.min.js"></script>
     <script src="lib/counterup/counterup.min.js"></script>
     <script src="lib/owlcarousel/owl.carousel.min.js"></script>
-
+    <!-- Inisialisasi Carousel + Tombol -->
+    <script>
+        $(document).ready(function () {
+            $('.promo-carousel').owlCarousel({
+                loop: true,
+                margin: 20,
+                nav: false,
+                dots: false,
+                responsive: {
+                    0: { items: 1 },
+                    768: { items: 2 },
+                    992: { items: 3 }
+                }
+            });
+            
+            $('.protofolio-carousel').owlCarousel({
+                loop: true,
+                margin: 20,
+                nav: false,
+                dots: false,
+                responsive: {
+                    0: { items: 1 },
+                    768: { items: 2 },
+                    992: { items: 3 }
+                }
+            });
+    
+            $('#promo-prev').click(function () {
+                $('.promo-carousel').trigger('prev.owl.carousel');
+            });
+            $('#promo-next').click(function () {
+                $('.promo-carousel').trigger('next.owl.carousel');
+            });
+            $('#porto-prev').click(function () {
+                $('.portfolio-carousel').trigger('prev.owl.carousel');
+            });
+            $('#porto-next').click(function () {
+                $('.portfolio-carousel').trigger('next.owl.carousel');
+            });
+        });
+    </script>
     <!-- Template Javascript -->
     <script src="js/main.js"></script>
 </body>
