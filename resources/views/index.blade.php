@@ -80,7 +80,7 @@
         <nav class="navbar navbar-expand-xl navbar-dark px-2 px-sm-5 py-3 py-xl-0">
             <a href="#" class="navbar-brand p-0 d-flex align-items-center gap-3">
                 <img src="{{ Vite::image('logo.png') }}" class="logo">
-                <h1 class="m-0">Duta Madinna Kubah</h1>
+                <h1 class="m-0">CV. Duta Madinna Kubah</h1>
             </a>
             <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarCollapse">
                 <span class="fa fa-bars"></span>
