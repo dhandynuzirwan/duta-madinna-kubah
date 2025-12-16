@@ -4,7 +4,7 @@
 <head>
     <meta charset="utf-8">
     <title>{{ config('app.name', 'Laravel') }}</title>
-    <meta content="width=device-width, initial-scale=1.0" name="viewport">
+    <meta content="width=device-width, initial-scale=1.0" name="viewport"> 
 
     <!-- Favicon -->
     <link rel="shortcut icon" href="{{ Vite::image('logo.png') }}" type="image/x-icon">

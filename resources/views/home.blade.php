@@ -43,7 +43,7 @@
         </x-slot>
     </x-navbar>
 
-    <!-- Hero -->
+    <!-- Hero --> 
     <section id="home" class="text-white relative h-screen w-full">
         <img src="{{ Vite::image('hero.jpg') }}" alt="Hero Image"
             class="absolute h-screen object-cover w-full brightness-50">

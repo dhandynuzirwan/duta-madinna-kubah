@@ -17,8 +17,8 @@ class DatabaseSeeder extends Seeder
 
         User::create([
             'name' => 'Test User',
-            'email' => 'test@example.com',
-            'password' => bcrypt('password'),
+            'email' => 'admin@gmail.com',
+            'password' => 'password', // Remember to hash passwords in a real application
         ]);
     }
 }

@@ -33,8 +33,7 @@
                             @foreach ($portfolios as $portfolio)
                                 <tr class="bg-white border-b border-gray-200 hover:bg-gray-50">
                                     <td class="p-4">
-                                        <img src='{{ asset("storage/$portfolio->image_path") }}'
-                                            class="w-16 md:w-32 max-w-full max-h-full" alt="Apple Watch">
+                                        <img src="{{ asset('storage/' . $portfolio->image_path) }}" style="max-width: 200px;">
                                     </td>
                                     <td class="px-6 py-4 font-semibold text-gray-900">
                                         {{ $portfolio->title }}
@@ -49,7 +48,7 @@
                                         <p class="font-medium text-red-600 hover:underline cursor-pointer" x-data
                                             x-on:click.prevent="$dispatch('open-modal', 'delete-portfolio-{{ $portfolio->id }}')">
                                             Hapus</p>
-                                    </td>
+                                    </td> 
                                     <x-modal name="edit-portfolio-{{ $portfolio->id }}">
                                         <form action="{{ route('portfolio.update', $portfolio) }}" method="POST"
                                             enctype="multipart/form-data" class="block w-full max-w-4xl">
