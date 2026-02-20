@@ -395,9 +395,13 @@
                         <form id="quoteForm">
                             <div class="row g-3">
                                 <div class="col-xl-12">
-                                    <input id="nameField" type="text" class="form-control bg-light border-0"
-                                        placeholder="Nama" style="height: 55px;">
+                                    <input id="nameField" type="text" class="form-control bg-light border-0" placeholder="Nama" style="height: 55px;">
                                 </div>
+
+                                <div class="col-xl-12">
+                                    <input id="phoneField" type="tel" class="form-control bg-light border-0" placeholder="Nomor WhatsApp (Contoh: 08123...)" style="height: 55px;">
+                                </div>
+
                                 <div class="col-12">
                                     <select id="serviceField" class="form-select bg-light border-0"
                                         style="height: 55px;">
@@ -587,6 +591,8 @@
             });
         });
     </script>
+        
+
     <!-- Template Javascript -->
     <script src="js/main.js"></script>
 </body>
